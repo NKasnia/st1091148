@@ -21,7 +21,17 @@
 ''*****************************************
 
 ''SCRIPT
-''Test cases for phase 1
+''Test cases for valid input
 AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
 
 AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
+''Test cases for Invalid input - missing Username
+AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Test cases for Invalid input - missing password
+AddUser "mnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - user already exists
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
