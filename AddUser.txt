@@ -1,0 +1,26 @@
+' *****************************************************************************
+
+'' FILENAME: AddUser
+
+'' *****************************************************************************
+
+'' ABOUT THIS FILE
+
+'' AUTHOR IDENTITY:
+'' Initials Name/Company
+
+'' -------- -----------------------------------------
+
+'' nk Nitika Kasnia ABC INC
+'' REVISION HISTORY:
+'' Date/Initials Comments
+
+'' --------- -------------------------------
+'' 11/07/20250 nk Created for LoanApp 3.1.08
+
+''*****************************************
+
+''SCRIPT
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
+AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
